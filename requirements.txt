@@ -1,0 +1,10 @@
+chromadb
+sentence-transformers
+rank-bm25
+pandas
+numpy
+tqdm
+python-dotenv
+requests
+scikit-learn
+matplotlib
