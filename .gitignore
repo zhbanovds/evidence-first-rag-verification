@@ -1,0 +1,71 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local caches and models
+.cache/
+*.cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+
+# Chroma / generated vector indexes
+chroma_db/
+*.sqlite3
+
+# Logs
+*.log
+
+# Archives and temporary files
+*.zip
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Debug / backup / snapshot results
+results/debug/
+results/debug_runs/
+results/backups_before_v4_full/
+results/snapshots/
+
+# Local notebooks / working graphics
+graphics.ipynb
+
+# Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Ignore all markdown drafts except README
+*.md
+!README.md
+
+# Explicit local / assistant / planning files
+AGENTS.md
+*codex*
+*Codex*
+*deep-research*
+*research-report*
+*vkr_rag_typst_context*
+github_*.txt
+
+# Thesis and local working materials
+thesis/
+vkr_visuals/
+*.docx
+*.pdf
+*.numbers
+
+# Generated visual drafts
+/*.png
