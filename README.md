@@ -315,3 +315,6 @@ python3 scripts/09_test_api.py
 
 ---
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
